@@ -1,0 +1,7 @@
+# Ignore Wi-Fi secrets
+main/include/wifi_secrets.hpp
+
+# Ignore build output
+build/
+*.elf
+*.bin
