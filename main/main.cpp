@@ -22,5 +22,5 @@ extern "C" void app_main();
 
 void app_main() {
     wifi_init_sta();  // Wi-fi initialization
-    Clock::init()     // Setup RTC & sync SNTP
+    Clock::init();     // Setup RTC & sync SNTP
 }

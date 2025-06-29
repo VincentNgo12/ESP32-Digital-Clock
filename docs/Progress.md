@@ -15,3 +15,10 @@
 - Setup clock initialization using SNTP with ESP32's RTC.
 - Setup Wi-fi initialization for ESP32 (Need documentation tho...)
 *** Todo: Document Wifi.cpp
+
+
+### Day 4 (29 June 2025)
+- Successfully connected to home wi-fi and sync SNTP 
+- Implemented and documented Display Driver (ILI9488) init for the LCD screen.
+- The display driver don't have any graphic render or text drawing capabillity yet.
+*** TODO: Implement text drawing for display driver

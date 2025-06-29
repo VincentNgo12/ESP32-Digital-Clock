@@ -19,9 +19,9 @@ void Clock::init() {
     tzset();              // Apply timezone
 
     ESP_LOGI(TAG, "Initializing SNTP...");
-    sntp_setoperatingmode(SNTP_OPMODE_POLL);   // Set SNTP poll mode
-    sntp_setservername(0, "pool.ntp.org");     // Set source NTP server
-    sntp_init();                               // Start SNTP client (beign syncing in background)
+    esp_sntp_setoperatingmode(SNTP_OPMODE_POLL);   // Set SNTP poll mode
+    esp_sntp_setservername(0, "pool.ntp.org");     // Set source NTP server
+    esp_sntp_init();                               // Start SNTP client (beign syncing in background)
 
     // Wait for system time to be set
     time_t now = 0;
