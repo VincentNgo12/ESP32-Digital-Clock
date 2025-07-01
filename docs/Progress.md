@@ -22,3 +22,11 @@
 - Implemented and documented Display Driver (ILI9488) init for the LCD screen.
 - The display driver don't have any graphic render or text drawing capabillity yet.
 *** TODO: Implement text drawing for display driver
+
+
+### Day 5 (30 June 2025)
+- Started working on Text Renderer for the display but got interrupted.
+
+
+### Day 6 (1 July 2025)
+- 
